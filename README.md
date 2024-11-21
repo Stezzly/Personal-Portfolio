@@ -1,44 +1,44 @@
-# Stephen Crocker's Portfolio
+# vCard - Personal portfolio
 
-This repository contains the source code for my personal portfolio website, showcasing my skills, experience, and projects in Computer Science and Business Administration.
+![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/vcard-personal-portfolio)
+![GitHub stars](https://img.shields.io/github/stars/codewithsadee/vcard-personal-portfolio?style=social)
+![GitHub forks](https://img.shields.io/github/forks/codewithsadee/vcard-personal-portfolio?style=social)
+[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
+[![YouTube Video Views](https://img.shields.io/youtube/views/SoxmIlgf2zM?style=social)](https://youtu.be/SoxmIlgf2zM)
 
-## Website
+vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
 
-You can view my portfolio at [stephencrocker.net](http://stephencrocker.net)
+## Demo
 
-## Features
+![vCard Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
+![vCard Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
 
-- About Me: An introduction to my background and aspirations
-- Experience: Details of my work history and projects
-- Education: Information about my academic pursuits
-- Portfolio: Showcase of my projects and skills
+## Prerequisites
 
-## Technologies Used
+Before you begin, ensure you have met the following requirements:
 
-- HTML
-- CSS 
-- SCSS 
-- JavaScript 
-- Bootstrap framework
+* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
 
-## Local Development
+## Installing vCard
 
-To run this website locally:
+To install **vCard**, follow these steps:
 
-1. Clone the repository
+Linux and macOS:
 
-git clone https://github.com/Stezzly/stephencrocker.net.git
+```bash
+sudo git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
+```
 
-2. Open the `index.html` file in your web browser
+Windows:
 
-## Contributing
-
-While this is a personal portfolio, I appreciate any feedback or suggestions for improvement. Please feel free to open an issue or submit a pull request if you notice any bugs or have ideas for enhancements. However, please note that my personal information and pictures are off-limits for use or sharing, while the code is open for contributions.
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
+```bash
+git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
+```
 
 ## Contact
 
-Feel free to reach out to me for any questions or opportunities!
+If you want to contact me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
+
+## License
+
+MIT
