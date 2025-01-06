@@ -340,6 +340,19 @@ a {
   border-radius: 20px;
 }
 
+.profile-img {
+  width: 80px; /* Width remains the same */
+  border-radius: 50%; /* Rounds the edges to make it circular */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+  object-fit: cover; /* Ensures the image fits well within the circle */
+  transition: transform 0.3s ease-in-out; /* Adds a smooth effect when hovered */
+}
+
+.profile-img:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+
 .info-content .name {
   color: var(--white-2);
   font-size: var(--fs-3);
