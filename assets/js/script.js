@@ -143,9 +143,10 @@ const pages = document.querySelectorAll("[data-page]");
 // add event to all nav link
 for (let i = 0; i < navigationLinks.length; i++) {
   navigationLinks[i].addEventListener("click", function () {
+    const pageValue = this.getAttribute('data-nav-link') || this.innerHTML.toLowerCase();
 
     for (let i = 0; i < pages.length; i++) {
-      if (this.innerHTML.toLowerCase() === pages[i].dataset.page) {
+      if (pageValue === pages[i].dataset.page) {
         pages[i].classList.add("active");
         navigationLinks[i].classList.add("active");
         window.scrollTo(0, 0);
@@ -154,6 +155,16 @@ for (let i = 0; i < navigationLinks.length; i++) {
         navigationLinks[i].classList.remove("active");
       }
     }
+  });
+}
 
+// Collapsible sections
+const collapsibleSections = document.querySelectorAll("[data-collapse]");
+
+for (let i = 0; i < collapsibleSections.length; i++) {
+  collapsibleSections[i].addEventListener("click", function () {
+    const content = this.nextElementSibling;
+    this.classList.toggle("active");
+    content.classList.toggle("active");
   });
 }
