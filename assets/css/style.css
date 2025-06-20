@@ -1604,8 +1604,8 @@ textarea.form-input::-webkit-resizer {
   }
 
   .contact-info {
-    max-width: calc(100% - 64px);
-    width: calc(100% - 64px);
+    max-width: calc(100% + 128px);
+    width: calc(100% + 128px);
   }
 
 
