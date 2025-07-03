@@ -263,6 +263,12 @@ article.active {
   font-weight: var(--fw-500);
 }
 
+strong {
+  font-weight: bold;
+}
+
+
+
 .article-title {
   position: relative;
   padding-bottom: 7px;
