@@ -7,10 +7,8 @@ Welcome to the official repository of my personal portfolio website, accessible 
 ## Features
 
 - **About Section**: Learn about my background, skills, and expertise.
-- **Resume Section**: Explore my qualifications, experience, and education.
+- **Skills & Experience Section**: Explore my qualifications, experience, and education.
 - **Portfolio Section**: View my projects and games with descriptions and visuals.
-- **Blog Section**: Read articles on software and game development.
-- **Contact Section**: Connect with me for collaborations or inquiries.
 - **Interactive Design**: Smooth navigation with a responsive layout for all devices.
 
 ---
@@ -23,10 +21,8 @@ View the portfolio live at [**stephencrocker.net**](https://stephencrocker.net).
 ### 2. **Navigate the Website**
 Use the navigation bar to explore different sections:
 - **About**: Overview of my background and skills.
-- **Resume**: My career and educational timeline.
+- **Skills & Experience**: Overview of skills, experience, education, and projects.
 - **Portfolio**: Browse my projects and their details.
-- **Blog**: Insights and articles about development.
-- **Contact**: Get in touch with me.
 
 ---
 
