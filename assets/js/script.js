@@ -168,3 +168,30 @@ for (let i = 0; i < collapsibleSections.length; i++) {
     content.classList.toggle("active");
   });
 }
+
+// Terminal Modal Functions
+function openTerminalModal() {
+  const modal = document.getElementById('terminal-modal-container');
+  modal.classList.add('active');
+  document.body.style.overflow = 'hidden';
+  
+  // Initialize terminal demo if not already done
+  const terminalContainer = document.getElementById('terminal-demo-container');
+  if (terminalContainer && !terminalContainer.hasChildNodes()) {
+    const demo = new TerminalDemo('terminal-demo-container');
+    demo.init();
+  }
+}
+
+function closeTerminalModal() {
+  const modal = document.getElementById('terminal-modal-container');
+  modal.classList.remove('active');
+  document.body.style.overflow = 'auto';
+}
+
+// Add keyboard support for closing modal
+document.addEventListener('keydown', function(event) {
+  if (event.key === 'Escape') {
+    closeTerminalModal();
+  }
+});

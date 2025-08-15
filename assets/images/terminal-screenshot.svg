@@ -1,0 +1,49 @@
+<svg width="315" height="250" viewBox="0 0 315 250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Terminal background -->
+  <rect width="315" height="250" fill="#1e1e1e" rx="8"/>
+  
+  <!-- Terminal header -->
+  <rect x="0" y="0" width="315" height="30" fill="#2d2d2d" rx="8 8 0 0"/>
+  
+  <!-- Terminal buttons -->
+  <circle cx="15" cy="15" r="6" fill="#ff5f56"/>
+  <circle cx="35" cy="15" r="6" fill="#ffbd2e"/>
+  <circle cx="55" cy="15" r="6" fill="#27ca3f"/>
+  
+  <!-- Terminal title -->
+  <text x="80" y="20" fill="#d4d4d4" font-family="Arial, sans-serif" font-size="12">Task Manager CLI</text>
+  
+  <!-- Terminal content -->
+  <g transform="translate(15, 45)">
+    <!-- Command line -->
+    <text x="0" y="0" fill="#4ec9b0" font-family="Courier New, monospace" font-size="12" font-weight="bold">$ </text>
+    <text x="15" y="0" fill="#d4d4d4" font-family="Courier New, monospace" font-size="12">javac edu/keyin/stephencrocker/*.java</text>
+    
+    <!-- Output -->
+    <text x="0" y="20" fill="#d4d4d4" font-family="Courier New, monospace" font-size="12">Compilation successful!</text>
+    
+    <!-- Another command -->
+    <text x="0" y="40" fill="#4ec9b0" font-family="Courier New, monospace" font-size="12" font-weight="bold">$ </text>
+    <text x="15" y="40" fill="#d4d4d4" font-family="Courier New, monospace" font-size="12">java edu.keyin.stephencrocker.Main</text>
+    
+    <!-- Menu -->
+    <text x="0" y="60" fill="#d4d4d4" font-family="Courier New, monospace" font-size="12">=== Task Manager Application ===</text>
+    <text x="0" y="80" fill="#d4d4d4" font-family="Courier New, monospace" font-size="12">1. Create User</text>
+    <text x="0" y="95" fill="#d4d4d4" font-family="Courier New, monospace" font-size="12">2. Add Task</text>
+    <text x="0" y="110" fill="#d4d4d4" font-family="Courier New, monospace" font-size="12">3. Delete Task</text>
+    <text x="0" y="125" fill="#d4d4d4" font-family="Courier New, monospace" font-size="12">4. Mark Task as Completed</text>
+    <text x="0" y="140" fill="#d4d4d4" font-family="Courier New, monospace" font-size="12">5. View a User's Tasks</text>
+    <text x="0" y="155" fill="#d4d4d4" font-family="Courier New, monospace" font-size="12">6. View All Users' Tasks</text>
+    <text x="0" y="170" fill="#d4d4d4" font-family="Courier New, monospace" font-size="12">7. View Users</text>
+    <text x="0" y="185" fill="#d4d4d4" font-family="Courier New, monospace" font-size="12">8. Exit</text>
+    
+    <!-- Prompt -->
+    <text x="0" y="205" fill="#d4d4d4" font-family="Courier New, monospace" font-size="12">Choose an option: </text>
+    <text x="120" y="205" fill="#ce9178" font-family="Courier New, monospace" font-size="12">1</text>
+    
+    <!-- Cursor -->
+    <rect x="130" y="195" width="8" height="12" fill="#d4d4d4" opacity="0.7">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
