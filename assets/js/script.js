@@ -119,6 +119,12 @@ for (let i = 0; i < filterBtn.length; i++) {
 
 }
 
+// Run filter on load so section dividers and items match the active "All" state
+const activeFilterBtn = document.querySelector("[data-filter-btn].active");
+if (activeFilterBtn) {
+  filterFunc(activeFilterBtn.innerText.toLowerCase());
+}
+
 
 
 // contact form variables
