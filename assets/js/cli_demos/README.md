@@ -16,20 +16,22 @@ Each `steps` array entry: `{ type: 'command' | 'output' | 'input', text: string,
 - **output** – Program output (menus, messages).
 - **input** – User input (choices, names).
 
-## Demo IDs (kebab-case)
+## Demo IDs and repository URLs
 
-Used in `openTerminalModal('demo-id')` and as registry keys:
+Used in `openTerminalModal('demo-id')` and as registry keys. Each `repoUrl` in the config and GitHub link in the portfolio card must match:
 
-- `linked-list-task-manager`
-- `fitness-tracker-cli`
-- `sll-delete-methods`
-- `dll-undo-redo`
-- `animal-shelter-manager`
-- `theater-seating-system`
-- `temp-above-avg`
-- `library-management-cli`
-- `password-generator-cli`
-- `eccommerce-management`
+| Demo ID | GitHub repository |
+|---------|--------------------|
+| `linked-list-task-manager` | https://github.com/SearchingSteve/linked-list-task-manager |
+| `fitness-tracker-cli` | https://github.com/SearchingSteve/fitness-tracker-CLI |
+| `sll-delete-methods` | https://github.com/SearchingSteve/SLL-delete-methods |
+| `dll-undo-redo` | https://github.com/SearchingSteve/DLL-undo-redo |
+| `animal-shelter-manager` | https://github.com/SearchingSteve/animal-shelter-manager |
+| `theater-seating-system` | https://github.com/SearchingSteve/Theater-Seating-System |
+| `temp-above-avg` | https://github.com/SearchingSteve/Temp-Above-Avg |
+| `library-management-cli` | https://github.com/SearchingSteve/Library-Management-CLI |
+| `password-generator-cli` | https://github.com/SearchingSteve/Password-Generator-CLI |
+| `eccommerce-management` | https://github.com/sarwoodford/eccommerce-management |
 
 ## Adding a new CLI
 

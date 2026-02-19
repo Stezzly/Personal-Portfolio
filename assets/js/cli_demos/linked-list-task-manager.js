@@ -1,8 +1,8 @@
 /** Demo config: Linked List Task Manager. Steps match the Java CLI flow. */
 CLI_DEMOS['linked-list-task-manager'] = {
     id: 'linked-list-task-manager',
-    title: 'Task Manager CLI Demo',
-    modalTitle: 'Linked List Task Manager - Interactive Demo',
+    title: 'Task Manager Demo',
+    modalTitle: 'Linked List Task Manager',
     description: 'Experience the Task Manager CLI application in action! This interactive demo showcases the Java-based task management system that uses a custom singly linked list implementation. Watch as users are created, tasks are added and managed, and the system demonstrates its full functionality through a realistic workflow.',
     repoUrl: 'https://github.com/SearchingSteve/linked-list-task-manager',
     steps: [
