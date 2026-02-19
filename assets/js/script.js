@@ -181,18 +181,25 @@ for (let i = 0; i < collapsibleSections.length; i++) {
   });
 }
 
-// Terminal Modal Functions
-function openTerminalModal() {
+// Terminal Modal Functions (demo id from CLI_DEMOS registry)
+function openTerminalModal(demoId) {
+  if (!demoId || typeof CLI_DEMOS === 'undefined' || !CLI_DEMOS[demoId]) return;
+  const config = CLI_DEMOS[demoId];
+
   const modal = document.getElementById('terminal-modal-container');
+  const titleEl = modal.querySelector('.modal-title');
+  const descEl = modal.querySelector('.modal-description');
+  const terminalContainer = document.getElementById('terminal-demo-container');
+
+  if (titleEl) titleEl.textContent = config.modalTitle || config.title;
+  if (descEl) descEl.textContent = config.description || '';
+  if (terminalContainer) terminalContainer.innerHTML = '';
+
   modal.classList.add('active');
   document.body.style.overflow = 'hidden';
-  
-  // Initialize terminal demo if not already done
-  const terminalContainer = document.getElementById('terminal-demo-container');
-  if (terminalContainer && !terminalContainer.hasChildNodes()) {
-    const demo = new TerminalDemo('terminal-demo-container');
-    demo.init();
-  }
+
+  const demo = new TerminalDemo('terminal-demo-container', config);
+  demo.init();
 }
 
 function closeTerminalModal() {
