@@ -1,0 +1,16 @@
+<svg width="315" height="250" viewBox="0 0 315 250" xmlns="http://www.w3.org/2000/svg">
+  <rect width="315" height="250" fill="#1e1e1e" rx="8"/>
+  <rect x="0" y="0" width="315" height="30" fill="#2d2d2d" rx="8 8 0 0"/>
+  <circle cx="15" cy="15" r="6" fill="#ff5f56"/>
+  <circle cx="35" cy="15" r="6" fill="#ffbd2e"/>
+  <circle cx="55" cy="15" r="6" fill="#27ca3f"/>
+  <text x="80" y="20" fill="#d4d4d4" font-family="Arial, sans-serif" font-size="12">DLL Undo/Redo</text>
+  <g transform="translate(15, 45)">
+    <text x="0" y="0" fill="#4ec9b0" font-family="Courier New, monospace" font-size="12" font-weight="bold">$ </text>
+    <text x="15" y="0" fill="#d4d4d4" font-family="Courier New, monospace" font-size="12">java UndoRedoManager</text>
+    <text x="0" y="25" fill="#d4d4d4" font-family="Courier New, monospace" font-size="12">Added new state: State 1</text>
+    <text x="0" y="45" fill="#d4d4d4" font-family="Courier New, monospace" font-size="12">Added new state: State 2 & State 4</text>
+    <text x="0" y="65" fill="#d4d4d4" font-family="Courier New, monospace" font-size="12">Current state: State 4</text>
+    <text x="0" y="85" fill="#d4d4d4" font-family="Courier New, monospace" font-size="12">Undo: State 3  ’  Redo: State 4</text>
+  </g>
+</svg>

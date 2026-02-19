@@ -1,0 +1,18 @@
+<svg width="315" height="250" viewBox="0 0 315 250" xmlns="http://www.w3.org/2000/svg">
+  <rect width="315" height="250" fill="#1e1e1e" rx="8"/>
+  <rect x="0" y="0" width="315" height="30" fill="#2d2d2d" rx="8 8 0 0"/>
+  <circle cx="15" cy="15" r="6" fill="#ff5f56"/>
+  <circle cx="35" cy="15" r="6" fill="#ffbd2e"/>
+  <circle cx="55" cy="15" r="6" fill="#27ca3f"/>
+  <text x="80" y="20" fill="#d4d4d4" font-family="Arial, sans-serif" font-size="12">Fitness Tracker</text>
+  <g transform="translate(15, 45)">
+    <text x="0" y="0" fill="#4ec9b0" font-family="Courier New, monospace" font-size="12" font-weight="bold">$ </text>
+    <text x="15" y="0" fill="#d4d4d4" font-family="Courier New, monospace" font-size="12">java FitnessTrackerApp</text>
+    <text x="0" y="25" fill="#d4d4d4" font-family="Courier New, monospace" font-size="12">Fitness Tracker Menu:</text>
+    <text x="0" y="45" fill="#d4d4d4" font-family="Courier New, monospace" font-size="12">1. Add Workout  2. Add Goal  3. Check Goal Status</text>
+    <text x="0" y="65" fill="#d4d4d4" font-family="Courier New, monospace" font-size="12">4. Display Workouts  5. Display Goals  68. Totals / Exit</text>
+    <text x="0" y="95" fill="#d4d4d4" font-family="Courier New, monospace" font-size="12">Please choose an option (1-8): </text>
+    <text x="220" y="95" fill="#ce9178" font-family="Courier New, monospace" font-size="12">1</text>
+    <rect x="230" y="85" width="8" height="12" fill="#d4d4d4" opacity="0.7"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+  </g>
+</svg>
