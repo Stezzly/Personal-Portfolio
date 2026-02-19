@@ -1097,6 +1097,30 @@ a {
   margin-bottom: 10px;
 }
 
+.portfolio-section-header {
+  display: none;
+  grid-column: 1 / -1;
+  padding: 24px 0 12px;
+  margin: 16px 0 0;
+  border-top: 1px solid var(--jet);
+  font-size: var(--fs-5);
+  font-weight: var(--fw-500);
+  color: var(--light-gray);
+  text-transform: capitalize;
+}
+
+.portfolio-section-header:first-child,
+.portfolio-section-header.active:first-child {
+  margin-top: 0;
+  padding-top: 12px;
+  border-top: none;
+}
+
+.portfolio-section-header.active {
+  display: block;
+  animation: scaleUp 0.25s ease forwards;
+}
+
 .project-item {
   display: none;
 }
